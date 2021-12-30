@@ -1,0 +1,45 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+  /* apply custom rules to the body here */
+}
+
+header {
+  padding: 154px 0 100px;
+}
+
+/* media query when the media is wider than 992px */
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.fit-image {
+  object-fit: cover;
+  height: calc(50px + 20vw);
+}
+
+.boss-image {
+  background-image: url('../images/Cancun-beach-at-the-sunset.jpg'); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center center;
+}
+
+/* Consider adding drop shadows on header titles when your in a cancun sunset */
+header h1, header p {
+  text-shadow: 0 0 2px #212529, 0 0 4px #212529;;
+}
